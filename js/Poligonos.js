@@ -11,7 +11,7 @@ function init() {
        })
      }
 
-function addPolygons (results) {
+function addPolygons (data, tabletop) {
 	
 	var polygons = {
 	"type": "FeatureCollection",
