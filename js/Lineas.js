@@ -11,7 +11,7 @@ function init() {
        })
      }
 
-function addLines (results) {
+function addLines (data, tabletop) {
 	
 	var lines = {
 	"type": "FeatureCollection",
