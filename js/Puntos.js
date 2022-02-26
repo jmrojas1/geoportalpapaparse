@@ -109,7 +109,7 @@ function addPoints (results) {
 			}
 		});		
 	}
-	console.log("row:", results.data);  
+	console.log(data);  
 }
 
 window.addEventListener('DOMContentLoaded', init)
