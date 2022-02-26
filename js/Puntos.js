@@ -4,7 +4,7 @@ function init() {
     Papa.parse(sheetsUrlPuntos,{
          download: true,
          header: true,
-         complete: function(results){
+         complete: function(results, parser){
 			 var data = results.data
 			 console.log(data)
 		 }
