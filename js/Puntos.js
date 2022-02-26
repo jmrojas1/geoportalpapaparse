@@ -6,11 +6,12 @@ function init() {
          header: true,
          complete: function (results){
 		 var data = results.data
+		 console.log(data)
 	   }
        })
      }
 
-function addPoints {
+function addPoints (data, tabletop) {
 
 	var points = {
 	"type": "FeatureCollection",
