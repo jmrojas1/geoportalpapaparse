@@ -1,4 +1,4 @@
-var sheetsUrlSectoresUrbanosFrutillar ="https://docs.google.com/spreadsheets/d/1-IzvBnyjVrnNsiQfF_mDd-0FCfGidFnXMQKt76goPts/edit#gid=0";
+var sheetsUrlSectoresUrbanosFrutillar ="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUiUjwTN3UWuaqk-Nd61kUCMoJZrraFx7iWzOQn3gDFzwELJev2SiElnrJzzvVrx8V390yPJDlSbFX/pub?output=csv";
 
 function init() {
     Papa.parse(sheetsUrlSectoresUrbanosFrutillar,{
