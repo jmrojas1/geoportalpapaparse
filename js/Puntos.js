@@ -11,7 +11,7 @@ function init() {
        })
      }
 
-function addPoints (data, Papa.parse) {
+function addPoints (data, tabletop) {
 	
 	var points = {
 	"type": "FeatureCollection",
