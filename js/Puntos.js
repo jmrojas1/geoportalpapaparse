@@ -10,14 +10,14 @@ function init() {
 
 function addPoints (results) {
 	
-	var data = results.data.forEach(row)
+	var data = results.data
 
 	var points = {
 	"type": "FeatureCollection",
 	"features": []
 	}
 	
-	for (var row in data){
+	for (var row in results){
 		
 		var coords = JSON.parse(data[row].geometry);
 		points.features.push({
