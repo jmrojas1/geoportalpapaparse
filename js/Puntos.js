@@ -4,14 +4,14 @@ function init() {
     Papa.parse(sheetsUrlPuntos,{
          download: true,
          header: true,
-         complete: addPoints 
+         complete: function (results){
+		 var data = results.data
+	   }
        })
      }
 
-function addPoints (results) {
-	
-	var data = results.data
-	
+function addPoints {
+
 	var points = {
 	"type": "FeatureCollection",
 	"features": []
