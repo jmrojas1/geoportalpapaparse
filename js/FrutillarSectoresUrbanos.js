@@ -11,7 +11,7 @@ function init() {
        })
      }
 
-function addPolygonssectoresurbanos (results) {
+function addPolygonssectoresurbanos (data, tabletop) {
 	
 	var polygonssectoresurbanos = {
 	"type": "FeatureCollection",
