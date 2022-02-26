@@ -18,7 +18,7 @@ function addPoints (results) {
 	"features": []
 	}
 	
-	for (var row in results){
+	for (var row in data){
 		
 		var coords = JSON.parse(data[row].geometry);
 		points.features.push({
