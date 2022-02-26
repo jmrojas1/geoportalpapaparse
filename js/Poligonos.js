@@ -1,4 +1,4 @@
-var sheetsUrlPoligonos ="https://docs.google.com/spreadsheets/d/1c9hQIF4pDICQnuHlJ_u56ZEsdHsN351NFUu26gmgjRU/edit#gid=0";
+var sheetsUrlPoligonos ="https://docs.google.com/spreadsheets/d/e/2PACX-1vRg_NE8ZfdVfkSAq6M42MJGinsGJOlmenxk2ftz-IShghiNeGNuyM7mSBaiigxcQplMckg6FKM8QkT0/pub?output=csv";
 
 function init() {
 		Papa.parse(sheetsUrlPoligonos, {
