@@ -8,9 +8,9 @@ function init() {
        })
      }
 
-function addPoints (data) {
+function addPoints (results) {
 	
-	var data = data.data
+	var data = results.data
 
 	var points = {
 	"type": "FeatureCollection",
