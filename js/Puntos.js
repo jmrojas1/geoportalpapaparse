@@ -11,7 +11,7 @@ function init() {
        })
      }
 
-function addPoints (data, tabletop) {
+function addPoints (results,parser) {
 	
 	var points = {
 	"type": "FeatureCollection",
