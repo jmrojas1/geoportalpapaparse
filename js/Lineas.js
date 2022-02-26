@@ -1,4 +1,4 @@
-var sheetsUrlLineas ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZvt58BuHAKch2AaUQsDc0Z-iQlvGIf5dZ0yrCEpWxiaJJt6wAVfFYvN4ZoCD5p5hie5eOWbFJ6JD1/pub?output=csv"
+var sheetsUrlLineas ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZvt58BuHAKch2AaUQsDc0Z-iQlvGIf5dZ0yrCEpWxiaJJt6wAVfFYvN4ZoCD5p5hie5eOWbFJ6JD1/pub?output=csv";
 
 function init() {
     Papa.parse(sheetsUrlLineas,{
