@@ -4,21 +4,16 @@ function init() {
     Papa.parse(sheetsUrlPuntos,{
          download: true,
          header: true,
-         complete: addPoints
-       })
-     }
-
-function addPoints (results) {
+         complete: function addPoints (results) {
 	
 	var data = results.data
-	var row = []
 
 	var points = {
 	"type": "FeatureCollection",
 	"features": []
 	}
 	
-	for (var row in results){
+	for (var row in data){
 		
 		var coords = JSON.parse(data[row].geometry);
 		points.features.push({
@@ -111,6 +106,5 @@ function addPoints (results) {
 		});		
 	}
 	console.log(data);  
-}
 
 window.addEventListener('DOMContentLoaded', init)
