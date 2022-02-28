@@ -3,7 +3,6 @@ var sheetsUrlPuntos ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3YSnHHrU
 function init() {
     Papa.parse(sheetsUrlPuntos,{
          download: true,
-         header: true,
          complete: addPoints
 	})
 }
