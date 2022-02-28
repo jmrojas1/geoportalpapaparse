@@ -7,8 +7,6 @@ function init() {
          complete: addPoints
 	})
 }
-
-window.addEventListener('DOMContentLoaded', init)
 	 
 function addPoints (results) {
 	
