@@ -1,7 +1,7 @@
 var sheetsUrlPuntos ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3YSnHHrUo-V_txtKzIja5bwbUb5SvdrvXdq5RGptkA6pz9MIlZzt6LDd8amkBY5-B8cZAGRgQYs9b/pub?output=csv";
 
 function init() {
-    Papa.parse(sheetsUrlPuntos,{
+    Papa.parse.init(sheetsUrlPuntos,{
          download: true,
          header: true,
          complete: addPoints
@@ -9,6 +9,8 @@ function init() {
 }
 	 
 function addPoints (results) {
+	
+	var data = results.data
 
 	var points = {
 	"type": "FeatureCollection",
