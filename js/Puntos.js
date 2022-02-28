@@ -37,8 +37,8 @@ function init() {
 				"Foto": data[row].foto,
 				"Hipervinculo": data[row].hipervinculo
 			}
-		})}}})};
-				
+		})}
+					
 		PointMarkers = L.geoJSON(points, {
 			pointToLayer: function (Feature, coords){
 				switch (Feature.properties.Tipo){
@@ -103,7 +103,8 @@ function init() {
 					case "Otros proyectos": return otros.addLayer(layer);
 				};
 			}
-		})		
+		})
+}})};		
 	console.log(data);  
 
 window.addEventListener('DOMContentLoaded', init)
