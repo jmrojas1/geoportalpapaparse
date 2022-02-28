@@ -7,6 +7,8 @@ function init() {
          complete: addPoints
 	})
 }
+
+window.addEventListener('DOMContentLoaded', init)
 	 
 function addPoints (results) {
 	
@@ -23,7 +25,7 @@ function addPoints (results) {
 		points.features.push({
 			"type": "Feature",
 			"geometry": {
-				"type": "MultiPoint",
+				"type": "Mul	tiPoint",
 				"coordinates": coords
 			},
 			"properties": {
@@ -110,5 +112,3 @@ function addPoints (results) {
 		})
 	console.log(data);  
 }
-
-window.addEventListener('DOMContentLoaded', init)
