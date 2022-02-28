@@ -8,7 +8,7 @@ function init() {
 	})
 }
 	 
-function addPoints (results, Papa) {
+function addPoints (results) {
 
 	var points = {
 	"type": "FeatureCollection",
