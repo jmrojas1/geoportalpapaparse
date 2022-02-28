@@ -105,6 +105,6 @@ function init() {
 			}
 		});		
 	}
-	console.log(data);  
+	console.log(data)};  
 
 window.addEventListener('DOMContentLoaded', init)
