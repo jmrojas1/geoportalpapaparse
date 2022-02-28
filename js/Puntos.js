@@ -103,8 +103,7 @@ function init() {
 					case "Otros proyectos": return otros.addLayer(layer);
 				};
 			}
-		});		
-	}
+		})		
 	console.log(data);  
 
 window.addEventListener('DOMContentLoaded', init)
