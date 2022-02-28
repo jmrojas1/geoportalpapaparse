@@ -104,7 +104,7 @@ function init() {
 				};
 			}
 		})
-}})};		
 	console.log(data);  
+}})};
 
 window.addEventListener('DOMContentLoaded', init)
