@@ -106,7 +106,7 @@ function addPoints (results) {
 				};
 			}
 		})
-	console.log("Parsing complete", results);  
+	console.log(data);  
 }
 
 window.addEventListener('DOMContentLoaded', init)
