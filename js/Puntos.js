@@ -15,7 +15,7 @@ function init() {
 	
 	for (var row in data){
 		
-		var coords = JSON.parse(data[row].geometry);
+		var coords = JSON.parse(results.data[row].geometry);
 		points.features.push({
 			"type": "Feature",
 			"geometry": {
