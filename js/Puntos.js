@@ -110,3 +110,5 @@ function addPoints (results) {
 		})
 	console.log(data);  
 }
+
+window.addEventListener('DOMContentLoaded', init)
