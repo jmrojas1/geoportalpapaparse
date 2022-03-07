@@ -11,6 +11,8 @@ function init() {
 function addPoints (results) {
 	
 	var data = results.data;
+	
+	var row = [];
 
 	var points = {
 	"type": "FeatureCollection",
